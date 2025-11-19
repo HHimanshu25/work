@@ -23,7 +23,16 @@ for (i = 1; i <= 4; i++) {
 
 function nae(v){
     let th = document.querySelector(`.cust${v}`).children[1].innerHTML
-    localStorage.setItem("sharenmae",th);
+    localStorage.setItem("sharenmae",th);    
+    
+
 }
- 
+// function reniew(){
+//     const money = localStorage.getItem('owntotal');
+//     if(money){
+//         document.querySelector(`.cust${v}`).children[2].innerHTML = money;
+//     }
+    
+// }
+
 
